@@ -271,7 +271,7 @@ display: block;
 @keyframes pageLoadIcon {
     from {
         opacity: 0;
-        transform: translate(-150px);
+        transform: translateY(-120px);
     }
     to {
         opacity: 1;

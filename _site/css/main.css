@@ -160,7 +160,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .thumbnail a:hover span { display: block; }
 
 @keyframes pageLoadIcon { from { opacity: 0;
-    transform: translate(-150px); }
+    transform: translateY(-120px); }
   to { opacity: 1; } }
 
 .icon { animation: pageLoadIcon 3s backwards; animation-delay: 2s; }
