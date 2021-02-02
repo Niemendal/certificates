@@ -283,6 +283,21 @@ display: block;
     animation-delay: 2s;
 }
 
+
+@keyframes pageLoadSocialIcon {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.social_icon{
+    animation: pageLoadSocialIcon 1.25s backwards;
+    animation-delay: 4s;
+}
+
 @keyframes pageLoadCert {
     from {
         transform: translate(-700px);
